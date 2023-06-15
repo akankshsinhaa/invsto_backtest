@@ -13,3 +13,5 @@ Submit the result of how your strategy is performing.
 
 Test Case:
 Check if input data is valid ( Open High Low Close need to be decimals), volume needs to be integer, instrument needs to be String, datetime needs to be datetime
+
+Bonus: Try improving the assignment with backtesting libraries, metrics, parameter optimization or any custom analysis.
