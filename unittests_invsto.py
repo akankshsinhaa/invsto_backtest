@@ -23,6 +23,10 @@ def returnDateTimeTypeAsString(i):
 
 def returnVolumeTypeAsString(i):
      return str(type(df['volume'].values[i]))
+
+def returnInstrumentTypeAsString(i):
+     return str(type(df['instrument'].values[i]))
+
 class DataFrameTest(unittest.TestCase):
     def test_data_types(self):
         for i in range(len(df.index)):
@@ -33,6 +37,7 @@ class DataFrameTest(unittest.TestCase):
             self.assertEqual(returnHighTypeAsString(i), "<class 'numpy.float64'>")
             self.assertEqual(returnDateTimeTypeAsString(i), "<class 'numpy.datetime64'>")
             self.assertEqual(returnVolumeTypeAsString(i), "<class 'numpy.int64'>")
+            self.assertEqual(returnInstrumentTypeAsString(i), "<class 'str'>")
 
 
 
