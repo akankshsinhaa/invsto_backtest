@@ -33,7 +33,7 @@ The python module pymysql is used to connect to a database. First a new database
 
 The python module matplotlib is used to plot the graph for the prices provided in the dataset. It shows that the data is in an uptrend. This information would be valuable later. For the strategy part, a simple SMA Crossover Strategy is used of 10 days and 20 days time frame. When the 10 days line crosses over the 20 days line, buy signal is generated. If 10 days line goes below the 20 days line, a sell signal is generated. It gives around 13% returns.
 
-[Link]([https://github.com/akankshsinhaa/invsto_screening_task/blob/main/invsto%20analysis%20and%20strategy.ipynb)
+[Link](https://github.com/akankshsinhaa/invsto_screening_task/blob/main/invsto%20analysis%20and%20strategy.ipynb)
 
 ## Test Cases
 
