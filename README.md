@@ -1,5 +1,4 @@
-# Invsto Screening Task
-As a next step of your application, please submit the assignment listed below:
+# Invsto - Backtesting Project
 
  
 
